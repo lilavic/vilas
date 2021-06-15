@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vilastasia_mod:blocks/vilastasiacevher",
+    "up": "vilastasia_mod:blocks/vilastasiacevher",
+    "north": "vilastasia_mod:blocks/vilastasiacevher",
+    "east": "vilastasia_mod:blocks/vilastasiacevher",
+    "south": "vilastasia_mod:blocks/vilastasiacevher",
+    "west": "vilastasia_mod:blocks/vilastasiacevher",
+    "particle": "vilastasia_mod:blocks/vilastasiacevher"
+  }
+}

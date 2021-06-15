@@ -18,14 +18,34 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "vilastasiaparcacigi"
+    },
+    {
+      "name": "VilastasiaCevheri",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vilastasia_cevheri"
+    },
+    {
+      "name": "Vilastasiablok",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vilastasiablok"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.vilastasia_mod.vilastasia_cevheri": "Vilastasia Cevheri",
       "item.vilastasia_mod.vilastasiaparcacigi": "Vilastasia Parçacýðý",
-      "item.vilastasia_mod.vilastasia_zehirli_metali": "Vilastasia Zehirli Metali"
+      "item.vilastasia_mod.vilastasia_zehirli_metali": "Vilastasia Zehirli Metali",
+      "block.vilastasia_mod.vilastasiablok": "Vilastasiablok"
     }
   },
   "foldersRoot": {
