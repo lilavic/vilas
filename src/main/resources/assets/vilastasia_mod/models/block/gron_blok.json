@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vilastasia_mod:blocks/gronblok",
+    "up": "vilastasia_mod:blocks/gronblok",
+    "north": "vilastasia_mod:blocks/gronblok",
+    "east": "vilastasia_mod:blocks/gronblok",
+    "south": "vilastasia_mod:blocks/gronblok",
+    "west": "vilastasia_mod:blocks/gronblok",
+    "particle": "vilastasia_mod:blocks/gronblok"
+  }
+}

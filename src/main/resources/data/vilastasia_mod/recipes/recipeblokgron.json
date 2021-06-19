@@ -1,0 +1,13 @@
+{
+  "group": "vilastasia_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vilastasia_mod:gron_blok"
+    }
+  ],
+  "result": {
+    "item": "vilastasia_mod:gron_kulcesi",
+    "count": 9
+  }
+}

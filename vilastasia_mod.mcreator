@@ -36,13 +36,79 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "vilastasiablok"
+    },
+    {
+      "name": "GronKulcesi",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gron_kulcesi"
+    },
+    {
+      "name": "GronCevheri",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gron_cevheri"
+    },
+    {
+      "name": "GronBlok",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gron_blok"
+    },
+    {
+      "name": "Recipevilasblok",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipevilasblok"
+    },
+    {
+      "name": "Recipeblokvilas",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipeblokvilas"
+    },
+    {
+      "name": "Recipegronblok",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipegronblok"
+    },
+    {
+      "name": "Recipeblokgron",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipeblokgron"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.vilastasia_mod.gron_blok": "Gron Blok",
       "block.vilastasia_mod.vilastasia_cevheri": "Vilastasia Cevheri",
+      "block.vilastasia_mod.gron_cevheri": "Gron Cevheri",
+      "item.vilastasia_mod.gron_kulcesi": "Gron Külçesi",
       "item.vilastasia_mod.vilastasiaparcacigi": "Vilastasia Parçacýðý",
       "item.vilastasia_mod.vilastasia_zehirli_metali": "Vilastasia Zehirli Metali",
       "block.vilastasia_mod.vilastasiablok": "Vilastasiablok"

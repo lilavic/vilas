@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "vilastasiablok",
-    "textureTop": "vilastasiablok",
-    "textureLeft": "vilastasiablok",
-    "textureFront": "vilastasiablok",
-    "textureRight": "vilastasiablok",
-    "textureBack": "vilastasiablok",
+    "texture": "gronblok",
+    "textureTop": "gronblok",
+    "textureLeft": "gronblok",
+    "textureFront": "gronblok",
+    "textureRight": "gronblok",
+    "textureBack": "gronblok",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,11 +32,11 @@
         "subtract": false
       }
     ],
-    "name": "Vilastasiablok",
+    "name": "Gron Blok",
     "specialInfo": [
-      "Bu bir blok. Ama biraz farklý..."
+      "Grondan bir blok."
     ],
-    "hardness": 9.0,
+    "hardness": 4.5,
     "resistance": 30.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -54,7 +54,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -78,7 +78,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

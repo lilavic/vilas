@@ -41,7 +41,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.vilastasiamod.item.VilastasiaparcacigiItem;
+import net.mcreator.vilastasiamod.item.GronKulcesiItem;
 import net.mcreator.vilastasiamod.VilastasiaModModElements;
 
 import java.util.Random;
@@ -49,11 +49,11 @@ import java.util.List;
 import java.util.Collections;
 
 @VilastasiaModModElements.ModElement.Tag
-public class VilastasiaCevheriBlock extends VilastasiaModModElements.ModElement {
-	@ObjectHolder("vilastasia_mod:vilastasia_cevheri")
+public class GronCevheriBlock extends VilastasiaModModElements.ModElement {
+	@ObjectHolder("vilastasia_mod:gron_cevheri")
 	public static final Block block = null;
-	public VilastasiaCevheriBlock(VilastasiaModModElements instance) {
-		super(instance, 3);
+	public GronCevheriBlock(VilastasiaModModElements instance) {
+		super(instance, 6);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -66,16 +66,16 @@ public class VilastasiaCevheriBlock extends VilastasiaModModElements.ModElement 
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(8f, 22f).setLightLevel(s -> 0).harvestLevel(3)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 20f).setLightLevel(s -> 0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("vilastasia_cevheri");
+			setRegistryName("gron_cevheri");
 		}
 
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Vilastasia... bu isim tan\u0131d\u0131k gibi..."));
+			list.add(new StringTextComponent("Tatl\u0131 ve g\u00FC\u00E7l\u00FC."));
 		}
 
 		@Override
@@ -83,7 +83,7 @@ public class VilastasiaCevheriBlock extends VilastasiaModModElements.ModElement 
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(VilastasiaparcacigiItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(GronKulcesiItem.block, (int) (2)));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;
@@ -107,7 +107,7 @@ public class VilastasiaCevheriBlock extends VilastasiaModModElements.ModElement 
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("vilastasia_mod:vilastasia_cevheri_match"),
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("vilastasia_mod:gron_cevheri_match"),
 					() -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
@@ -121,10 +121,10 @@ public class VilastasiaCevheriBlock extends VilastasiaModModElements.ModElement 
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(16)
-					.square().func_242731_b(1);
-			event.getRegistry().register(feature.setRegistryName("vilastasia_cevheri"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("vilastasia_mod:vilastasia_cevheri"), configuredFeature);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(20)
+					.square().func_242731_b(5);
+			event.getRegistry().register(feature.setRegistryName("gron_cevheri"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("vilastasia_mod:gron_cevheri"), configuredFeature);
 		}
 	}
 	@SubscribeEvent

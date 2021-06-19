@@ -1,0 +1,42 @@
+{
+  "group": "vilastasia_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "vilastasia_mod:vilastasia_zehirli_metali"
+    },
+    "1": {
+      "item": "vilastasia_mod:vilastasia_zehirli_metali"
+    },
+    "2": {
+      "item": "vilastasia_mod:vilastasia_zehirli_metali"
+    },
+    "3": {
+      "item": "vilastasia_mod:vilastasia_zehirli_metali"
+    },
+    "4": {
+      "item": "vilastasia_mod:vilastasia_zehirli_metali"
+    },
+    "5": {
+      "item": "vilastasia_mod:vilastasia_zehirli_metali"
+    },
+    "6": {
+      "item": "vilastasia_mod:vilastasia_zehirli_metali"
+    },
+    "7": {
+      "item": "vilastasia_mod:vilastasia_zehirli_metali"
+    },
+    "8": {
+      "item": "vilastasia_mod:vilastasia_zehirli_metali"
+    }
+  },
+  "result": {
+    "item": "vilastasia_mod:vilastasiablok",
+    "count": 1
+  }
+}

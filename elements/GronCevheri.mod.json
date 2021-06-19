@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "vilastasiablok",
-    "textureTop": "vilastasiablok",
-    "textureLeft": "vilastasiablok",
-    "textureFront": "vilastasiablok",
-    "textureRight": "vilastasiablok",
-    "textureBack": "vilastasiablok",
+    "texture": "groncevheri",
+    "textureTop": "groncevheri",
+    "textureLeft": "groncevheri",
+    "textureFront": "groncevheri",
+    "textureRight": "groncevheri",
+    "textureBack": "groncevheri",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,12 +32,12 @@
         "subtract": false
       }
     ],
-    "name": "Vilastasiablok",
+    "name": "Gron Cevheri",
     "specialInfo": [
-      "Bu bir blok. Ama biraz farklý..."
+      "Tatlý ve güçlü."
     ],
-    "hardness": 9.0,
-    "resistance": 30.0,
+    "hardness": 3.0,
+    "resistance": 20.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -45,16 +45,16 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:GronKulcesi"
     },
-    "dropAmount": 1,
+    "dropAmount": 2,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -74,11 +74,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -103,12 +103,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "frequencyPerChunks": 5,
+    "frequencyOnChunk": 3,
+    "minGenerateHeight": 4,
+    "maxGenerateHeight": 20
   }
 }

@@ -1,0 +1,13 @@
+{
+  "group": "vilastasia_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vilastasia_mod:vilastasiablok"
+    }
+  ],
+  "result": {
+    "item": "vilastasia_mod:vilastasia_zehirli_metali",
+    "count": 9
+  }
+}

@@ -26,11 +26,11 @@ import java.util.List;
 import java.util.Collections;
 
 @VilastasiaModModElements.ModElement.Tag
-public class VilastasiablokBlock extends VilastasiaModModElements.ModElement {
-	@ObjectHolder("vilastasia_mod:vilastasiablok")
+public class GronBlokBlock extends VilastasiaModModElements.ModElement {
+	@ObjectHolder("vilastasia_mod:gron_blok")
 	public static final Block block = null;
-	public VilastasiablokBlock(VilastasiaModModElements instance) {
-		super(instance, 4);
+	public GronBlokBlock(VilastasiaModModElements instance) {
+		super(instance, 7);
 	}
 
 	@Override
@@ -41,16 +41,16 @@ public class VilastasiablokBlock extends VilastasiaModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(9f, 30f).setLightLevel(s -> 0).harvestLevel(3)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(4.5f, 30f).setLightLevel(s -> 0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("vilastasiablok");
+			setRegistryName("gron_blok");
 		}
 
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Bu bir blok. Ama biraz farkl\u0131..."));
+			list.add(new StringTextComponent("Grondan bir blok."));
 		}
 
 		@Override
