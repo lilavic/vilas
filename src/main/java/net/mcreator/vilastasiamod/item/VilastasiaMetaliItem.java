@@ -12,11 +12,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.vilastasiamod.VilastasiaModModElements;
 
 @VilastasiaModModElements.ModElement.Tag
-public class VilastasiaZehirliMetaliItem extends VilastasiaModModElements.ModElement {
-	@ObjectHolder("vilastasia_mod:vilastasia_zehirli_metali")
+public class VilastasiaMetaliItem extends VilastasiaModModElements.ModElement {
+	@ObjectHolder("vilastasia_mod:vilastasia_metali")
 	public static final Item block = null;
-	public VilastasiaZehirliMetaliItem(VilastasiaModModElements instance) {
-		super(instance, 1);
+	public VilastasiaMetaliItem(VilastasiaModModElements instance) {
+		super(instance, 13);
 	}
 
 	@Override
@@ -25,8 +25,8 @@ public class VilastasiaZehirliMetaliItem extends VilastasiaModModElements.ModEle
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.RARE));
-			setRegistryName("vilastasia_zehirli_metali");
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.EPIC));
+			setRegistryName("vilastasia_metali");
 		}
 
 		@Override

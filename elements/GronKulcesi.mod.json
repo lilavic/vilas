@@ -24,10 +24,7 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Tatlý bir yapýya sahip",
-      "ve güçlü."
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

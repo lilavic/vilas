@@ -3,19 +3,13 @@ package net.mcreator.vilastasiamod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.vilastasiamod.VilastasiaModModElements;
-
-import java.util.List;
 
 @VilastasiaModModElements.ModElement.Tag
 public class GronKulcesiItem extends VilastasiaModModElements.ModElement {
@@ -48,13 +42,6 @@ public class GronKulcesiItem extends VilastasiaModModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Tatl\u0131 bir yap\u0131ya sahip"));
-			list.add(new StringTextComponent("ve g\u00FC\u00E7l\u00FC."));
 		}
 	}
 }

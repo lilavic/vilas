@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "groncevheri",
-    "textureTop": "groncevheri",
-    "textureLeft": "groncevheri",
-    "textureFront": "groncevheri",
-    "textureRight": "groncevheri",
-    "textureBack": "groncevheri",
+    "texture": "gronore",
+    "textureTop": "gronore",
+    "textureLeft": "gronore",
+    "textureFront": "gronore",
+    "textureRight": "gronore",
+    "textureBack": "gronore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,10 +33,8 @@
       }
     ],
     "name": "Gron Cevheri",
-    "specialInfo": [
-      "Tatlý ve güçlü."
-    ],
-    "hardness": 3.0,
+    "specialInfo": [],
+    "hardness": 4.0,
     "resistance": 20.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -47,7 +45,7 @@
     "customDrop": {
       "value": "CUSTOM:GronKulcesi"
     },
-    "dropAmount": 2,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -78,7 +76,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

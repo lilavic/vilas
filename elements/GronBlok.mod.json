@@ -33,10 +33,8 @@
       }
     ],
     "name": "Gron Blok",
-    "specialInfo": [
-      "Grondan bir blok."
-    ],
-    "hardness": 4.5,
+    "specialInfo": [],
+    "hardness": 6.0,
     "resistance": 30.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -78,7 +76,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

@@ -1,0 +1,12 @@
+{
+  "group": "vilastasia_mod",
+  "type": "minecraft:smelting",
+  "experience": 8,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "vilastasia_mod:vilastasia_cevheri"
+  },
+  "result": {
+    "item": "vilastasia_mod:vilastasia_zehirli_metali"
+  }
+}

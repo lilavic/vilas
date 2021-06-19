@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "vilastasia_mod:blocks/groncevheri",
-    "up": "vilastasia_mod:blocks/groncevheri",
-    "north": "vilastasia_mod:blocks/groncevheri",
-    "east": "vilastasia_mod:blocks/groncevheri",
-    "south": "vilastasia_mod:blocks/groncevheri",
-    "west": "vilastasia_mod:blocks/groncevheri",
-    "particle": "vilastasia_mod:blocks/groncevheri"
+    "down": "vilastasia_mod:blocks/gronore",
+    "up": "vilastasia_mod:blocks/gronore",
+    "north": "vilastasia_mod:blocks/gronore",
+    "east": "vilastasia_mod:blocks/gronore",
+    "south": "vilastasia_mod:blocks/gronore",
+    "west": "vilastasia_mod:blocks/gronore",
+    "particle": "vilastasia_mod:blocks/gronore"
   }
 }

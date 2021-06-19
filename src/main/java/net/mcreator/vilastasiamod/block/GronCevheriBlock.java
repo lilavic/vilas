@@ -8,8 +8,6 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.gen.feature.template.RuleTest;
 import net.minecraft.world.gen.feature.template.IRuleTestType;
@@ -21,9 +19,6 @@ import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.World;
 import net.minecraft.world.ISeedReader;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
@@ -34,7 +29,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Blocks;
@@ -66,16 +60,9 @@ public class GronCevheriBlock extends VilastasiaModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 20f).setLightLevel(s -> 0).harvestLevel(2)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(4f, 20f).setLightLevel(s -> 0).harvestLevel(3)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("gron_cevheri");
-		}
-
-		@Override
-		@OnlyIn(Dist.CLIENT)
-		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Tatl\u0131 ve g\u00FC\u00E7l\u00FC."));
 		}
 
 		@Override
@@ -83,7 +70,7 @@ public class GronCevheriBlock extends VilastasiaModModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(GronKulcesiItem.block, (int) (2)));
+			return Collections.singletonList(new ItemStack(GronKulcesiItem.block, (int) (1)));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;

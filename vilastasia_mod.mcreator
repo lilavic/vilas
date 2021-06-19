@@ -99,12 +99,58 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "recipeblokgron"
+    },
+    {
+      "name": "Vilsatastas",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vilsatastas"
+    },
+    {
+      "name": "VilastasiaMetali",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vilastasia_metali"
+    },
+    {
+      "name": "Recipevilasmetal",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipevilasmetal"
+    },
+    {
+      "name": "Groneritme",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "groneritme"
+    },
+    {
+      "name": "Vilaseritme",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vilaseritme"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.vilastasia_mod.vilastasia_metali": "Vilastasia Külçesi",
       "block.vilastasia_mod.gron_blok": "Gron Blok",
       "block.vilastasia_mod.vilastasia_cevheri": "Vilastasia Cevheri",
       "block.vilastasia_mod.gron_cevheri": "Gron Cevheri",

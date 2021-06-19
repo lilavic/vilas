@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "vilastasiaparcacigi",
+    "texture": "vilastasiakulcesi",
     "customModelName": "Normal",
-    "name": "Vilastasia Parçacýðý",
-    "rarity": "UNCOMMON",
+    "name": "Vilastasia Külçesi",
+    "rarity": "EPIC",
     "creativeTab": {
       "value": "MISC"
     },

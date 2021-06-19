@@ -33,9 +33,7 @@
       }
     ],
     "name": "Vilastasiablok",
-    "specialInfo": [
-      "Bu bir blok. Ama biraz farklý..."
-    ],
+    "specialInfo": [],
     "hardness": 9.0,
     "resistance": 30.0,
     "hasGravity": false,

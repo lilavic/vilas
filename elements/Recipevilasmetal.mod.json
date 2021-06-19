@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GronKulcesi"
+      },
+      {
+        "value": "CUSTOM:GronKulcesi"
+      },
+      {
+        "value": "CUSTOM:GronKulcesi"
+      },
+      {
+        "value": "CUSTOM:GronKulcesi"
+      },
+      {
+        "value": "CUSTOM:VilastasiaZehirliMetali"
+      },
+      {
+        "value": "CUSTOM:GronKulcesi"
+      },
+      {
+        "value": "CUSTOM:GronKulcesi"
+      },
+      {
+        "value": "CUSTOM:GronKulcesi"
+      },
+      {
+        "value": "CUSTOM:GronKulcesi"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:VilastasiaMetali"
+    },
+    "name": "recipevilasmetal",
+    "namespace": "mod"
+  }
+}

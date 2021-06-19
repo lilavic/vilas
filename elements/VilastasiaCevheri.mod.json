@@ -33,9 +33,7 @@
       }
     ],
     "name": "Vilastasia Cevheri",
-    "specialInfo": [
-      "Vilastasia... bu isim tanýdýk gibi..."
-    ],
+    "specialInfo": [],
     "hardness": 8.0,
     "resistance": 22.0,
     "hasGravity": false,
